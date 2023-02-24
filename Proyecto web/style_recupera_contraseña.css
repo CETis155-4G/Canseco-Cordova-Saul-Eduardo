@@ -1,0 +1,28 @@
+html{
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 3;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.formulario{
+    background:#000000;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 35%;
+    margin-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.formulario h1{
+    text-align: center;
+    padding-bottom: 5%;
+}
