@@ -1,0 +1,331 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Parte de arriba de la página la cuál contiene un titulo, y un nombre*/
+.titulo{
+    box-sizing: border-box;
+    background-color: rgb(136, 91, 149);
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 0%;
+    border: 6px solid rgb(98, 49, 97);
+}
+
+/*Barra de menú en la página*/
+.menu{
+    box-sizing: border-box;
+    background-color: rgb(78, 78, 78);
+    padding-bottom: 1% ;
+    padding-top: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    margin-left: 0%;
+    border: 6px solid rgb(46, 46, 46);
+}
+
+/*Contenedor don el enlace a "¿Por qué esta bitácora?*/
+.obj{
+    color: whitesmoke;
+    margin-left: 16%;
+    box-sizing: border-box;
+    border-radius: 1px;
+    background-color: rgb(62, 61, 61);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#leftcontenedor{
+    width: 14%;
+}
+
+#principal{
+    width: 58%;
+}
+
+#sidebar{
+    width: 28%;
+}
+
+.buscar
+
+/*Se le añade un color sutil al fondo de la pantalla*/
+body{
+    background-color:rgb(237, 237, 237);
+}
+
+
+/*Se pone un fondo redondeado al titulo y colores*/
+h1{
+    color:whitesmoke ;
+    background-color: #997fb6;
+    display: inline-block;
+    margin-left: 16%;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 6px solid rgb(89, 51, 97)
+
+}
+
+h2{
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 28%;
+    padding-left: 2%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    background-color: #ac88d5;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+
+
+/*Se pone un fondo redondeado a las fechas y colores*/
+h4{
+    color: rgb(63, 44, 74);
+    background-color: rgb(189, 178, 195);
+    display: inline-block;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    margin-left: 4%;
+    border: 4px solid rgb(66, 60, 70);
+}
+
+
+/*Se le da una forma con esquinas redondeadas a la imagen de HTML 5, 
+además de cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_html{
+    float: right;
+    width: 22%;
+    margin-right: 4%;
+    border-radius: 24px; 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+/*Se integra el efecto hover a la imagen de HTML 5 para dar el efecto de
+ que se hace más grande*/
+.imagen_html:hover{
+    transform: scale(1.1);
+}
+
+/*Se integra la imagen de Github dentro de una caja la cual se le da una 
+forma con esquinas redondeadas y un borde delgado en color negro, 
+además de orientarla a la derecha con cierta distancia del margen de la 
+pantalla y cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_github{
+    float: right;
+    margin-right: 4%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid black;
+    background: white;
+    transition: all 300ms;
+    width: 30%;
+    cursor: pointer;
+}
+
+/*Se integra el efecto hover a la imagen de Github para dar el efecto de
+ que se hace más grande*/
+.imagen_github:hover{
+    transform: scale(1.1);
+}
+
+/*Se le da una forma con esquinas redondeadas a la imagen de CSS, 
+además de cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_css{
+    float: right;
+    width: 22%;
+    margin-right: 4%;
+    border-radius: 24px; 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_css:hover{
+    transform: scale(1.1);
+}
+
+
+.imagen_bitacora{
+    width: 60%;
+    border-radius: 24px; 
+    margin-left: 21%;
+    margin-right: 4%;
+    border: 1px solid black;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_bitacora:hover{
+    transform: scale(1.1);
+}
+
+.imagen_diseño_web{
+    margin-left: 28%;
+    width: 45%;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid black;
+    background: white;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_diseño_web:hover{
+    transform: scale(1.1);
+}
+
+.imagen_pagina_huawei{
+    width: 60%;
+    border-radius: 24px;
+    border: 1px solid black;
+    margin-left: 21%;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_pagina_huawei:hover{
+    transform: scale(1.1);
+}
+
+.imagen_colores{
+    float: right;
+    width: 38%;
+    border-radius: 24px;
+    margin-right: 4%;
+    transition: all 300ms;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.imagen_colores:hover{
+    transform: scale(1.1);
+}
+
+
+.github{
+    color: #ffffff;
+    background-color: rgb(115, 71, 152);
+    display: inline-block;
+    padding: 8px 17px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-left: 4%;
+    border: 4px solid rgb(58, 40, 62);
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.github:hover{
+    transform: scale(1.2);
+
+    
+}
+
+.detalles{
+    color: white;
+    text-align: justify;
+}
+
+b{
+    color:rgb(111, 87, 136) ;
+}
+
+
+
+.parrafo1{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 32%;
+}
+
+.parrafo2{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 39%;
+}
+
+.parrafo3{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 33%;
+}
+
+.parrafo4{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 4%;
+}
+
+.parrafo5{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 4%;
+}
+
+.parrafo6{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 4%;
+}
+
+.parrafo7{
+    margin-left: 4%;
+    text-align: justify;
+    margin-right: 49%;
+}
+
+.buscar{
+    margin-left: 4%;
+
+}
+
+.inpbuscar{
+    border-radius: 8px;
+    transition: all 300ms;
+    padding-left: 7px;
+    padding-right: 0px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    width: 70%;
+}
+
+body::-webkit-scrollbar{
+    background-color: #aa9fad;
+  
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(75, 61, 78);
+    border-radius: 7px;
+    
+}
+
+/*.estatico{
+    width: 60%;
+    height: 60%;
+}
+
+.moved{
+    transform: translate3d(10px,50%,3em);
+}*/
+

@@ -1,0 +1,248 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Se le añade un color sutil al fondo de la pantalla*/
+body{
+    background-color:rgb(244, 239, 232);
+}
+
+
+/*Se pone un fondo redondeado al titulo y colores*/
+h1{
+    color:whitesmoke ;
+    background-color: #b8a676;
+    display: inline-block;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    border: 4px solid rgb(90, 64, 40)
+
+}
+
+/*Se pone un fondo redondeado a las fechas y colores*/
+h4{
+    color: #604129;
+    background-color: rgb(175, 145, 106);
+    display: inline-block;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    margin-left: 13%;
+    border: 4px solid rgb(131, 94, 63);
+}
+
+.feb09{
+    color: #604129;
+    background-color: rgb(175, 145, 106);
+    display: inline-block;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    margin-left: 15%;
+    border: 4px solid rgb(131, 94, 63);
+}
+
+.feb15{
+    color: #604129;
+    background-color: rgb(175, 145, 106);
+    display: inline-block;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    margin-left: 15%;
+    border: 4px solid rgb(131, 94, 63);
+}
+
+/*Se le da una forma con esquinas redondeadas a la imagen de HTML 5, 
+además de cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_html{
+    float: right;
+    margin-right: 20%;
+    border-radius: 30px; 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+/*Se integra el efecto hover a la imagen de HTML 5 para dar el efecto de
+ que se hace más grande*/
+.imagen_html:hover{
+    transform: scale(1.1);
+}
+
+/*Se integra la imagen de Github dentro de una caja la cual se le da una 
+forma con esquinas redondeadas y un borde delgado en color negro, 
+además de orientarla a la derecha con cierta distancia del margen de la 
+pantalla y cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_github{
+    float: right;
+    margin-right: 9%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid black;
+    background: white;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+/*Se integra el efecto hover a la imagen de Github para dar el efecto de
+ que se hace más grande*/
+.imagen_github:hover{
+    transform: scale(1.1);
+}
+
+/*Se le da una forma con esquinas redondeadas a la imagen de CSS, 
+además de cambiar de forma el curso al momento de ponerlo sobre la imagen*/
+.imagen_css{
+    float: right;
+    margin-right: 16%;
+    border-radius: 30px; 
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+/*Se le da un efecto de agrandar con una escala*/
+.imagen_css:hover{
+    transform: scale(1.1);
+}
+
+/*Se le da una forma a la imagen para darle un aspecto mas acorde con la página*/
+.imagen_bitacora{
+    width: 600px;
+    border-radius: 30px; 
+    margin-left: 30%;
+    border: 1px solid black;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_bitacora:hover{
+    transform: scale(1.1);
+}
+
+.imagen_diseño_web{
+    float: right;
+    margin-right: 8%;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid black;
+    background: white;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_diseño_web:hover{
+    transform: scale(1.1);
+}
+
+.imagen_pagina_huawei{
+    width: 600px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 30%;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_pagina_huawei:hover{
+    transform: scale(1.1);
+}
+
+.imagen_colores{
+    float: right;
+    border-radius: 30px;
+    margin-right: 11%;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.imagen_colores:hover{
+    transform: scale(1.1);
+}
+
+
+.github{
+    color: #ffffff;
+    background-color: rgb(180, 145, 125);
+    display: inline-block;
+    padding: 8px 17px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-left: 13%;
+    border: 4px solid rgb(105, 80, 48);
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.github:hover{
+    transform: scale(1.2);
+
+    
+}
+
+.detalles{
+    color: white;
+    text-align: justify;
+}
+
+b{
+    color:rgb(145, 89, 37) ;
+}
+
+
+
+.parrafo1{
+    margin-left: 15%;
+    text-align: justify;
+    margin-right: 40%;
+}
+
+.parrafo2{
+    margin-left: 19%;
+    text-align: justify;
+    margin-right: 40%;
+}
+
+.parrafo3{
+    margin-left: 15%;
+    text-align: justify;
+    margin-right: 37%;
+}
+
+.parrafo4{
+    margin-left: 24%;
+    text-align: justify;
+    margin-right: 25%;
+}
+
+.parrafo5{
+    margin-left: 19%;
+    text-align: justify;
+    margin-right: 40%;
+}
+
+.parrafo6{
+    margin-left: 24%;
+    text-align: justify;
+    margin-right: 25%;
+}
+
+.parrafo7{
+    margin-left: 18%;
+    text-align: justify;
+    margin-right: 37%;
+}
+
+body::-webkit-scrollbar{
+    background-color: #ffdcc1;
+  
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(190, 149, 110);
+    border-radius: 16px;
+    
+}
+
